@@ -1,9 +1,11 @@
-import React, { Fragment } from 'react';
+import React from 'react';
+import Hero from './components/Hero';
 
 const App = () => {
   return (
-    <Fragment>
-    </Fragment>
+    <>
+      <Hero/>
+    </>
   );
 };
 
